@@ -2,53 +2,22 @@
 /* CSS Document */
 .my_ref:link{
 	text-decoration: none;
+	
+}
+.my_font {
+	font-family: DigitalStrip;
+}
 
+.my_img_sing_in {
+	text-align: right;
 }
 .my_font_for_gamename {
-	font-size:170px;
+	display: block;
+	font-size: 170px;
 	font-weight: bold;
 	color: #FFFFFF;
-	text-shadow: 
-		-0   -4px 1px #000000,
-		 0   -4px 1px #000000,
-		-0    4px 1px #000000,
-		 0    4px 1px #000000,
-		-4px -0   1px #000000,
-		 4px -0   1px #000000,
-		-4px  0   1px #000000,
-		 4px  0   1px #000000,
-		-1px -4px 1px #000000,
-		 1px -4px 1px #000000,
-		-1px  4px 1px #000000,
-		 1px  4px 1px #000000,
-		-4px -1px 1px #000000,
-		 4px -1px 1px #000000,
-		-4px  1px 1px #000000,
-		 4px  1px 1px #000000,
-		-2px -4px 1px #000000,
-		 2px -4px 1px #000000,
-		-2px  4px 1px #000000,
-		 2px  4px 1px #000000,
-		-4px -2px 1px #000000,
-		 4px -2px 1px #000000,
-		-4px  2px 1px #000000,
-		 4px  2px 1px #000000,
-		-3px -4px 1px #000000,
-		 3px -4px 1px #000000,
-		-3px  4px 1px #000000,
-		 3px  4px 1px #000000,
-		-4px -3px 1px #000000,
-		 4px -3px 1px #000000,
-		-4px  3px 1px #000000,
-		 4px  3px 1px #000000,
-		-4px -4px 1px #000000,
-		 4px -4px 1px #000000,
-		-4px  4px 1px #000000,
-		 4px  4px 1px #000000,
-		-4px -4px 1px #000000,
-		 4px -4px 1px #000000,
-		-4px  4px 1px #000000,
-		 4px  4px 1px #000000;
+	text-align: center;
+	text-shadow: -0 0 1px #000000,0 -4px 1px #000000,-0 4px 1px #000000,0 4px 1px #000000,-4px -0 1px #000000,4px -0 1px #000000,-4px 0 1px #000000,4px 0 1px #000000,-1px -4px 1px #000000,1px -4px 1px #000000,-1px 4px 1px #000000,1px 4px 1px #000000,-4px -1px 1px #000000,4px -1px 1px #000000,-4px 1px 1px #000000,4px 1px 1px #000000,-2px -4px 1px #000000,2px -4px 1px #000000,-2px 4px 1px #000000,2px 4px 1px #000000,-4px -2px 1px #000000,4px -2px 1px #000000,-4px 2px 1px #000000,4px 2px 1px #000000,-3px -4px 1px #000000,3px -4px 1px #000000,-3px 4px 1px #000000,3px 4px 1px #000000,-4px -3px 1px #000000,4px -3px 1px #000000,-4px 3px 1px #000000,4px 3px 1px #000000,-4px -4px 1px #000000,4px -4px 1px #000000,-4px 4px 1px #000000,4px 4px 1px #000000,-4px -4px 1px #000000,4px -4px 1px #000000,-4px 4px 1px #000000,4px 4px 1px #000000;
 }
 .my_font_for_gamename.first{
 	color: #88C1D8;
@@ -62,7 +31,8 @@
 }
 
 .my_font_for_gamename.second:hover{
-	color:#88C1D8;
+	color: #88C1D8;
+	text-shadow: 0px 0px 0;
 }
 
 .my_btn_image {
@@ -70,27 +40,5 @@
 	border-color: black;
 	border-width: 8px;
 	border-style: solid;
-	margin:  10px;
-}
-
-.my_btn_sing_in {
-	background: url(../src/1.png) no-repeat center;
-	display: block;
-	width: 390px;
-	max-width:  390px;
-	height: 557px;
-}
-.my_btn_sing_in:hover{
-	background: url(../src/2.png) no-repeat center;
-}
-
-.my_btn_about_us {
-	background: url(../src/Game_btn_sing_in.png) no-repeat;
-	display: block;
-	width: 390px;
-	max-width:  390px;
-	height: 557px;
-}
-.my_btn_about_us:hover{
-	background-position: 0-557px;
+	margin:  0 auto;
 }
